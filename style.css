@@ -1,9 +1,4 @@
-.nav_color{
-    background: #357D23;
-    background: linear-gradient(90deg,rgba(53, 125, 35, 1) 0%, rgba(52, 168, 101, 1) 48%, rgba(53, 125, 35, 1) 92%);
-}
-
-.header {
+.navColor{
     background: #357D23;
     background: linear-gradient(90deg,rgba(53, 125, 35, 1) 0%, rgba(52, 168, 101, 1) 48%, rgba(53, 125, 35, 1) 92%);
 }
