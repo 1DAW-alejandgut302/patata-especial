@@ -1,4 +1,38 @@
-.navColor{
-    background: #357D23;
-    background: linear-gradient(90deg,rgba(53, 125, 35, 1) 0%, rgba(52, 168, 101, 1) 48%, rgba(53, 125, 35, 1) 92%);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* Hecho con la página CSS Gradient. */
+    background: #1e3b14;
+    background: linear-gradient(90deg, rgba(30, 59, 20, 1) 0%, rgba(37, 115, 59, 1) 50%, rgba(30, 59, 20, 1) 100%);
+    
+}
+
+.navMenu {
+    /* Hecho con la página CSS Gradient. */
+    background: #b5e3ac;
+    background: linear-gradient(90deg, rgba(181, 227, 172, 1) 0%, rgba(204, 240, 214, 1) 50%, rgba(181, 227, 172, 1) 100%);
+}
+
+.mainCarousel {
+    /* background-color: rgba(61, 29, 231, 1); */
+}
+
+.lastEvSlide {
+    /* background-color: rgba(201, 134, 28, 1); */
+}
+
+.socialMedia {
+    /* background-color: rgba(101, 225, 145, 1); */
+}
+
+.nextEvSlide {
+    /* background-color: rgba(16, 43, 200, 1); */
+}
+
+.competitions {
+    /* background-color: rgba(156, 21, 230); */
 }
