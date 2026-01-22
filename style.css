@@ -11,6 +11,14 @@ body {
     
 }
 
+.fc_primary {
+    color: rgb(29, 46, 24);
+}
+
+.sh {
+    box-shadow: 0px 10px 40px rgb(35, 41, 34);
+}
+
 .navMenu {
     /* Hecho con la página CSS Gradient. */
     background: #b5e3ac;
@@ -35,4 +43,10 @@ body {
 
 .competitions {
     /* background-color: rgba(156, 21, 230); */
+}
+
+.footer {
+    /* Hecho con la página CSS Gradient. */
+    background: #b5e3ac;
+    background: linear-gradient(90deg, rgba(181, 227, 172, 1) 0%, rgba(204, 240, 214, 1) 50%, rgba(181, 227, 172, 1) 100%);
 }
