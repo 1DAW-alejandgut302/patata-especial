@@ -25,6 +25,11 @@ body {
     background: linear-gradient(90deg, rgba(181, 227, 172, 1) 0%, rgba(204, 240, 214, 1) 50%, rgba(181, 227, 172, 1) 100%);
 }
 
+.favb_logo {
+    height: 8%;
+    width: 8%;
+}
+
 .mainCarousel {
     /* background-color: rgba(61, 29, 231, 1); */
 }
