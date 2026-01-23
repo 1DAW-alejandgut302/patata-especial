@@ -77,11 +77,12 @@
             </div>
         </div>
 
-        <div class="row m-5 p-4">
-            <div class="col">
+        <div class="row m-5 p-4 d-flex justify-content-center">
+
+            <div class="col-12 col-lg-8">
 
                 <div id="mainCarousel" class="carousel slide sh" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
+                    <div class="carousel-indicators z-1">
                         <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -89,7 +90,7 @@
 
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="media/xenoblade.jpg" class="d-block w-100" alt="...">
+                            <img src="media/esquimo.webp" class="d-block w-100 object-fit-cover" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5 class="fc_primary">Victoria de Fundación Cajasol en Los Montecillos</h5>
                                 <p class="fc_primary">El equipo sevillano se impuso con un 3 - 1 ante el C.V. Avarca Menorca, actual líder de la Liga Iberdrola</p>
@@ -97,18 +98,18 @@
                         </div>
 
                         <div class="carousel-item">
-                            <img src="media/yoshi.jpg" class="d-block w-100" alt="...">
+                            <img src="media/esvoley.webp" class="d-block w-100 object-fit-cover" alt="...">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>Nueva aplicación para rotaciones: ESVOLEY LineUp</h5>
-                                <p>Descubre la innovadora aplicación para las rotaciones compatible con iOS y Android.</p>
+                                <h5 class="fc_primary">Nueva aplicación para rotaciones: ESVOLEY LineUp</h5>
+                                <p class="fc_primary">Descubre la innovadora aplicación para las rotaciones compatible con iOS y Android.</p>
                             </div>
                         </div>
 
                         <div class="carousel-item">
-                            <img src="media/fe7.jpg" class="d-block w-100" alt="...">
+                            <img src="media/cadeba.webp" class="d-block w-100 object-fit-cover" alt="...">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>La carrera por el CADEBA: La cosa está que arde en Sevilla.</h5>
-                                <p>Hasta 6 equipos juveniles masculinos tienen oportunidades reales de asistir al CADEBA.</p>
+                                <h5 class="fc_primary">La carrera por el CADEBA: La cosa está que arde en Sevilla.</h5>
+                                <p class="fc_primary">Hasta 6 equipos juveniles masculinos tienen oportunidades reales de asistir al CADEBA.</p>
                             </div>
                         </div>
                     </div>
@@ -124,51 +125,51 @@
                 </div>
 
             </div>
+
         </div>
 
-        <div class="row m-5 p-5 rounded-4 sh evSlide">
-            <div class="col">
+        <div class="row m-5 d-flex justify-content-center">
+
+            <!-- No sé si vas a acabar leyendo esto, si no te lo preguntaré en clase -->
+            <!-- Este carrusel es en realidad un slide de tarjetas que he apañado yo mismo de aquella manera -->
+            <!-- Lo malo que tiene es que para el responsive sufre mucho (sufre no, que no sé como hacer para que no quede tela de feo) -->
+            <!-- Lo he intentado gestionar por porcentajes, pero cuando uses el Chrome DevTools verás que sigue siendo feo -->
+            <!-- Llegué a la conclusión de que lo mejor es hacer que se muestren cada vez menos tarjetas en por cada slide, pero no sé cómo hacerlo,
+            así que así se queda -->
+
+            <div class="col-12 col-xl-8 p-5 rounded-4 sh evSlide">
                 <h1 class="text-center fc_secondary">Últimos eventos</h1>
                 <p class="text-center fc_secondary">¡No te pierdas nada!</p>
 
                 <!-- Slide de tarjetas -->
-                <div id="lastEventSlide" class="carousel slide cardSlide">
+                <div id="lastEventSlide" class="carousel slide">
                     <div class="carousel-inner">
 
                         <div class="carousel-item active">
-                            <div class="d-flex justify-content-evenly align-items-center w-100 h-100">
-                                <div class="card text-bg-dark h-100 bsl" style="width: 20%;">
-                                    <img src="media/xenoblade.jpg" class="card-img" alt="Fran Ruiz Femenino">
-                                    <div class="card-img-overlay">
+                            <div class="d-flex justify-content-evenly align-items-center w-100">
+                                <div class="card text-bg-dark w-25 h-100 bsl">
+                                    <img src="media/fr_1.webp" class="card-img object-fit-cover" alt="Fran Ruiz Femenino">
+                                    <div class="card-img-overlay d-flex flex-column justify-content-between">
                                         <h5 class="card-title">Torneo Fran Ruiz 2025 - Femenino</h5>
-                                        <p class="card-text">
-                                            La selección sevillana se hizo con el campeonato ante Málaga en la final.
-                                        </p>
-                                        <p class="card-text"><small>Last updated 1 month ago</small></p>
+                                        <p class="card-text"><small>Hace 1 mes</small></p>
                                     </div>
                                 </div>
 
-                                <div class="card text-bg-dark h-100 bsl" style="width: 20%;">
-                                    <img src="media/yoshi.jpg" class="card-img" alt="Fran Ruiz Masculino">
-                                    <div class="card-img-overlay">
+                                <div class="card text-bg-dark w-25 h-100 bsl">
+                                    <img src="media/fr_2.webp" class="card-img object-fit-cover" alt="Fran Ruiz Masculino">
+                                    <div class="card-img-overlay d-flex flex-column justify-content-between">
                                         <h5 class="card-title">Torneo Fran Ruiz 2025 - Masculino</h5>
-                                        <p class="card-text">
-                                            La selección de Málaga se llevó la victoria por 3 - 2 ante Granada en la final.
-                                        </p>
-                                        <p class="card-text"><small>Last updated 1 month ago</small></p>
+                                        <p class="card-text"><small>Hace 2 meses</small></p>
                                     </div>
                                 </div>
 
-                                <div class="card text-bg-dark h-100 bsl" style="width: 20%;">
-                                    <img src="media/fe7.jpg" class="card-img" alt="José Herdugo Masculino">
-                                    <div class="card-img-overlay">
+                                <div class="card text-bg-dark w-25 h-100 bsl">
+                                    <img src="media/jh_1.webp" class="card-img object-fit-cover" alt="José Herdugo Masculino">
+                                    <div class="card-img-overlay d-flex flex-column justify-content-between">
                                         <!-- En este torneo (tanto el masculino como el femenino) estuve yo, y fue una pasada ;) -->
                                          <!-- En la final en YT se ve a mi hermana de primera (la que está subida a la silla) y a mí de anotador ;D -->
                                         <h5 class="card-title">Torneo José Herdugo 2025 - Masculino</h5>
-                                        <p class="card-text">
-                                            La selección de Sevilla se llevó la victoria en casa con un holgado 3 - 0 ante Granada.
-                                        </p>
-                                        <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                        <p class="card-text"><small>Hace 1 mes</small></p>
                                     </div>
                                 </div>
                             </div>
@@ -176,30 +177,27 @@
 
                         <div class="carousel-item">
                             <div class="d-flex justify-content-evenly align-items-center w-100">
-                                <div class="card text-bg-dark h-100 bsl" style="width: 20%;">
-                                    <img src="media/yoshi.jpg" class="card-img" alt="José Herdugo Femenino">
-                                    <div class="card-img-overlay">
+                                <div class="card text-bg-dark w-25 h-100 bsl">
+                                    <img src="media/jh_2.webp" class="card-img object-fit-cover" alt="José Herdugo Femenino">
+                                    <div class="card-img-overlay d-flex flex-column justify-content-between">
                                         <h5 class="card-title">Torneo José Herdugo 2025 - Femenino</h5>
-                                        <p class="card-text">La selección de Granada arrasó con un 3 - 0 contra Sevilla en la final.</p>
-                                        <p class="card-text"><small>Last updated 4 days ago</small></p>
+                                        <p class="card-text"><small>Hace 4 días</small></p>
                                     </div>
                                 </div>
 
-                                <div class="card text-bg-dark h-100 bsl" style="width: 20%;">
-                                    <img src="media/fe7.jpg" class="card-img" alt="Espabila">
-                                    <div class="card-img-overlay">
-                                        <h5 class="card-title">No voy a poner más texto</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                <div class="card text-bg-dark w-25 h-100 bsl">
+                                    <img src="media/fr_1.webp" class="card-img object-fit-cover" alt="Fran Ruiz Femenino">
+                                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                                        <h5 class="card-title">Torneo Fran Ruiz 2025 - Femenino</h5>
+                                        <p class="card-text"><small>Hace 1 mes</small></p>
                                     </div>
                                 </div>
 
-                                <div class="card text-bg-dark h-100 bsl" style="width: 20%;">
-                                    <img src="media/xenoblade.jpg" class="card-img" alt="...">
-                                    <div class="card-img-overlay">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                <div class="card text-bg-dark w-25 h-100 bsl">
+                                    <img src="media/fr_2.webp" class="card-img object-fit-cover" alt="Fran Ruiz Masculino">
+                                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                                        <h5 class="card-title">Torneo Fran Ruiz 2025 - Masculino</h5>
+                                        <p class="card-text"><small>Hace 2 meses</small></p>
                                     </div>
                                 </div>
                             </div>
@@ -207,30 +205,29 @@
 
                         <div class="carousel-item">
                             <div class="d-flex justify-content-evenly align-items-center w-100">
-                                <div class="card text-bg-dark h-100 bsl" style="width: 20%;">
-                                    <img src="media/fe7.jpg" class="card-img" alt="...">
-                                    <div class="card-img-overlay">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                <div class="card text-bg-dark w-25 h-100 bsl">
+                                    <img src="media/jh_1.webp" class="card-img object-fit-cover" alt="José Herdugo Masculino">
+                                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                                        <!-- En este torneo (tanto el masculino como el femenino) estuve yo, y fue una pasada ;) -->
+                                         <!-- En la final en YT se ve a mi hermana de primera (la que está subida a la silla) y a mí de anotador ;D -->
+                                        <h5 class="card-title">Torneo José Herdugo 2025 - Masculino</h5>
+                                        <p class="card-text"><small>Hace 1 mes</small></p>
                                     </div>
                                 </div>
 
-                                <div class="card text-bg-dark h-100 bsl" style="width: 20%;">
-                                    <img src="media/xenoblade.jpg" class="card-img" alt="...">
-                                    <div class="card-img-overlay">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                <div class="card text-bg-dark w-25 h-100 bsl">
+                                    <img src="media/jh_2.webp" class="card-img object-fit-cover" alt="José Herdugo Femenino">
+                                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                                        <h5 class="card-title">Torneo José Herdugo 2025 - Femenino</h5>
+                                        <p class="card-text"><small>Hace 4 días</small></p>
                                     </div>
                                 </div>
 
-                                <div class="card text-bg-dark h-100 bsl" style="width: 20%;">
-                                    <img src="media/yoshi.jpg" class="card-img" alt="...">
-                                    <div class="card-img-overlay">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                <div class="card text-bg-dark w-25 h-100 bsl">
+                                    <img src="media/fr_1.webp" class="card-img object-fit-cover" alt="Fran Ruiz Femenino">
+                                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                                        <h5 class="card-title">Torneo Fran Ruiz 2025 - Femenino</h5>
+                                        <p class="card-text"><small>Hace 1 mes</small></p>
                                     </div>
                                 </div>
                             </div>
@@ -249,10 +246,12 @@
                 </div>
                 
             </div>
+
         </div>
 
-        <div class="row m-5 p-4">
-            <div class="col d-flex justify-content-center align-items-center">
+        <div class="row m-5 p-4 d-flex justify-content-center">
+
+            <div class="col-12 col-lg-8 d-flex justify-content-center align-items-center">
 
                 <!-- Parte de Redes Sociales -->
                 <div class="card mb-3 socialMedia sh fc_primary" style="width: 70%;">
@@ -262,27 +261,41 @@
                                 <h5 class="card-title text-center fs-1">Redes Sociales</h5>
                                 <p class="card-text">
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item socialMediaList">Instagram</li>
-                                        <li class="list-group-item socialMediaList">Twitter</li>
-                                        <li class="list-group-item socialMediaList">Facebook</li>
-                                        <li class="list-group-item socialMediaList">YouTube</li>
-                                        <li class="list-group-item socialMediaList">Página oficial</li>
+                                        <li class="list-group-item socialMediaList">
+                                            <a class="text-decoration-none fc_primary fs-5" href="#"><img class="smSvg" src="media/ig.svg" alt="Instagram logo">Instagram</a>
+                                        </li>
+                                        <li class="list-group-item socialMediaList">
+                                            <a class="text-decoration-none fc_primary fs-5" href="#"><img class="smSvg" src="media/twitter.svg" alt="X logo">Twitter</a>
+                                        </li>
+                                        <li class="list-group-item socialMediaList">
+                                            <a class="text-decoration-none fc_primary fs-5" href="#"><img class="smSvg" src="media/facebook.svg" alt="Facebook logo">Facebook</a>
+                                        </li>
+                                        <li class="list-group-item socialMediaList">
+                                            <a class="text-decoration-none fc_primary fs-5" href="#"><img class="smSvg" src="media/yt.svg" alt="YT logo">YouTube</a>
+                                        </li>
+                                        <li class="list-group-item socialMediaList">
+                                            <a class="text-decoration-none fc_primary fs-5" href="#"><img class="smSvg" src="media/favb_logo.svg" alt="FAVB logo">Página oficial</a>
+                                        </li>
                                     </ul>
                                 </p>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <!-- Relación de aspecto 3:4 -->
-                            <img src="media/yoshi_rs.jpg" class="img-fluid rounded-end object-fit-cover" alt="...">
+                             <!-- No encuentro ninguna imagen de la favb que tenga una calidad medianamente decente y pueda tener un mínimo sentido meterla
+                             aquí, así que toma un yoshi de lana :D  -->
+                            <img src="media/yoshi_rs.jpg" class="img-fluid h-100 rounded-end object-fit-cover" alt="...">
                         </div>
                     </div>
                 </div>
 
             </div>
+
         </div>
 
-        <div class="row m-5 p-5 rounded-4 sh evSlide">
-            <div class="col">
+        <div class="row m-5 d-flex justify-content-center">
+
+            <div class="col-12 col-xl-8 p-5 rounded-4 sh evSlide">
                 <h1 class="fc_secondary">Próximos eventos</h1>
                 <p class="fc_secondary">¡Te esperamos!</p>
 
@@ -292,61 +305,29 @@
 
                         <div class="carousel-item active">
                             <div class="d-flex justify-content-evenly align-items-center w-100">
-                                <div class="card text-bg-dark h-100 bsl" style="width: 20%;">
-                                    <img src="media/xenoblade.jpg" class="card-img" alt="...">
-                                    <div class="card-img-overlay">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                <div class="card text-bg-dark w-25 h-100 bsl">
+                                    <img src="media/fr_1.webp" class="card-img object-fit-cover" alt="Fran Ruiz Femenino">
+                                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                                        <h5 class="card-title">Torneo Fran Ruiz 2025 - Femenino</h5>
+                                        <p class="card-text"><small>Hace 1 mes</small></p>
                                     </div>
                                 </div>
 
-                                <div class="card text-bg-dark h-100 bsl" style="width: 20%;">
-                                    <img src="media/yoshi.jpg" class="card-img" alt="...">
-                                    <div class="card-img-overlay">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                <div class="card text-bg-dark w-25 h-100 bsl">
+                                    <img src="media/fr_2.webp" class="card-img object-fit-cover" alt="Fran Ruiz Masculino">
+                                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                                        <h5 class="card-title">Torneo Fran Ruiz 2025 - Masculino</h5>
+                                        <p class="card-text"><small>Hace 2 meses</small></p>
                                     </div>
                                 </div>
 
-                                <div class="card text-bg-dark h-100 bsl" style="width: 20%;">
-                                    <img src="media/fe7.jpg" class="card-img" alt="...">
-                                    <div class="card-img-overlay">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item">
-                            <div class="d-flex justify-content-evenly align-items-center w-100">
-                                <div class="card text-bg-dark h-100 bsl" style="width: 20%;">
-                                    <img src="media/yoshi.jpg" class="card-img" alt="...">
-                                    <div class="card-img-overlay">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                                    </div>
-                                </div>
-
-                                <div class="card text-bg-dark h-100 bsl" style="width: 20%;">
-                                    <img src="media/fe7.jpg" class="card-img" alt="...">
-                                    <div class="card-img-overlay">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                                    </div>
-                                </div>
-
-                                <div class="card text-bg-dark h-100 bsl" style="width: 20%;">
-                                    <img src="media/xenoblade.jpg" class="card-img" alt="...">
-                                    <div class="card-img-overlay">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                <div class="card text-bg-dark w-25 h-100 bsl">
+                                    <img src="media/jh_1.webp" class="card-img object-fit-cover" alt="José Herdugo Masculino">
+                                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                                        <!-- En este torneo (tanto el masculino como el femenino) estuve yo, y fue una pasada ;) -->
+                                         <!-- En la final en YT se ve a mi hermana de primera (la que está subida a la silla) y a mí de anotador ;D -->
+                                        <h5 class="card-title">Torneo José Herdugo 2025 - Masculino</h5>
+                                        <p class="card-text"><small>Hace 1 mes</small></p>
                                     </div>
                                 </div>
                             </div>
@@ -354,30 +335,57 @@
 
                         <div class="carousel-item">
                             <div class="d-flex justify-content-evenly align-items-center w-100">
-                                <div class="card text-bg-dark h-100 bsl" style="width: 20%;">
-                                    <img src="media/fe7.jpg" class="card-img" alt="...">
-                                    <div class="card-img-overlay">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                <div class="card text-bg-dark w-25 h-100 bsl">
+                                    <img src="media/jh_2.webp" class="card-img object-fit-cover" alt="José Herdugo Femenino">
+                                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                                        <h5 class="card-title">Torneo José Herdugo 2025 - Femenino</h5>
+                                        <p class="card-text"><small>Hace 4 días</small></p>
                                     </div>
                                 </div>
 
-                                <div class="card text-bg-dark h-100 bsl" style="width: 20%;">
-                                    <img src="media/xenoblade.jpg" class="card-img" alt="...">
-                                    <div class="card-img-overlay">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                <div class="card text-bg-dark w-25 h-100 bsl">
+                                    <img src="media/fr_1.webp" class="card-img object-fit-cover" alt="Fran Ruiz Femenino">
+                                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                                        <h5 class="card-title">Torneo Fran Ruiz 2025 - Femenino</h5>
+                                        <p class="card-text"><small>Hace 1 mes</small></p>
                                     </div>
                                 </div>
 
-                                <div class="card text-bg-dark h-100 bsl" style="width: 20%;">
-                                    <img src="media/yoshi.jpg" class="card-img" alt="...">
-                                    <div class="card-img-overlay">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                <div class="card text-bg-dark w-25 h-100 bsl">
+                                    <img src="media/fr_2.webp" class="card-img object-fit-cover" alt="Fran Ruiz Masculino">
+                                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                                        <h5 class="card-title">Torneo Fran Ruiz 2025 - Masculino</h5>
+                                        <p class="card-text"><small>Hace 2 meses</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="d-flex justify-content-evenly align-items-center w-100">
+                                <div class="card text-bg-dark w-25 h-100 bsl">
+                                    <img src="media/jh_1.webp" class="card-img object-fit-cover" alt="José Herdugo Masculino">
+                                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                                        <!-- En este torneo (tanto el masculino como el femenino) estuve yo, y fue una pasada ;) -->
+                                         <!-- En la final en YT se ve a mi hermana de primera (la que está subida a la silla) y a mí de anotador ;D -->
+                                        <h5 class="card-title">Torneo José Herdugo 2025 - Masculino</h5>
+                                        <p class="card-text"><small>Hace 1 mes</small></p>
+                                    </div>
+                                </div>
+
+                                <div class="card text-bg-dark w-25 h-100 bsl">
+                                    <img src="media/jh_2.webp" class="card-img object-fit-cover" alt="José Herdugo Femenino">
+                                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                                        <h5 class="card-title">Torneo José Herdugo 2025 - Femenino</h5>
+                                        <p class="card-text"><small>Hace 4 días</small></p>
+                                    </div>
+                                </div>
+
+                                <div class="card text-bg-dark w-25 h-100 bsl">
+                                    <img src="media/fr_1.webp" class="card-img object-fit-cover" alt="Fran Ruiz Femenino">
+                                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                                        <h5 class="card-title">Torneo Fran Ruiz 2025 - Femenino</h5>
+                                        <p class="card-text"><small>Hace 1 mes</small></p>
                                     </div>
                                 </div>
                             </div>
@@ -396,16 +404,17 @@
                 </div>
                 
             </div>
+
         </div>
 
-        <div class="row m-5 p-4">
-            <div class="col">
-                <h1 class="text-center m-5 fc_secondary">Competiciones vigentes</h1>
+        <div class="row m-5 p-4 d-flex justify-content-center">
+            <div class="col-10">
+                <h1 class="text-center my-5 p-3 w-auto rounded-4 fc_primary compTitle">Competiciones vigentes</h1>
                 
-                <div class="row row-cols-2 row-cols-md-4 g-4">
+                <div class="row row-cols-2 row-cols-xl-4 g-4">
                     <div class="col">
                         <div class="card h-100 compCard sh">
-                            <img src="media/fe7.jpg" class="card-img-top" alt="...">
+                            <img src="media/fr_2.webp" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Liga Provincial Cadete Femenina</h5>
                                 <p class="card-text">Bla bla bla ya sabes cómo va esto.</p>
@@ -414,7 +423,7 @@
                     </div>
                     <div class="col">
                         <div class="card h-100 compCard sh">
-                            <img src="media/xenoblade.jpg" class="card-img-top" alt="...">
+                            <img src="media/fr_2.webp" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -423,7 +432,7 @@
                     </div>
                     <div class="col">
                         <div class="card h-100 compCard sh">
-                            <img src="media/yoshi.jpg" class="card-img-top" alt="...">
+                            <img src="media/fr_2.webp" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -432,7 +441,7 @@
                     </div>
                     <div class="col">
                         <div class="card h-100 compCard sh">
-                            <img src="media/fe7.jpg" class="card-img-top" alt="...">
+                            <img src="media/fr_2.webp" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -442,7 +451,7 @@
 
                      <div class="col">
                         <div class="card h-100 compCard sh">
-                            <img src="media/fe7.jpg" class="card-img-top" alt="...">
+                            <img src="media/fr_2.webp" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -451,7 +460,7 @@
                     </div>
                     <div class="col">
                         <div class="card h-100 compCard sh">
-                            <img src="media/xenoblade.jpg" class="card-img-top" alt="...">
+                            <img src="media/fr_2.webp" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -460,7 +469,7 @@
                     </div>
                     <div class="col">
                         <div class="card h-100 compCard sh">
-                            <img src="media/fe7.jpg" class="card-img-top" alt="...">
+                            <img src="media/fr_2.webp" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -469,7 +478,7 @@
                     </div>
                     <div class="col">
                         <div class="card h-100 compCard sh">
-                            <img src="media/xenoblade.jpg" class="card-img-top" alt="...">
+                            <img src="media/fr_2.webp" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
