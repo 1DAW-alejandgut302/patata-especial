@@ -11,10 +11,21 @@ body {
     
 }
 
+.evSlide {
+    background-color: #1b2419;
+    border: 2px solid #b5e3ac;
+}
+
+.bgRow {
+    background-color: #b5e3ac;
+}
+
+/* font color primary */
 .fc_primary {
     color: rgb(29, 46, 24);
 }
 
+/* font color secondary */
 .fc_secondary {
     color: #d4ebcf;
 }
@@ -34,28 +45,36 @@ body {
     width: 8%;
 }
 
-.mainCarousel {
-    /* background-color: rgba(61, 29, 231, 1); */
-}
-
-.lastEvSlide {
-    /* background-color: rgba(201, 134, 28, 1); */
-}
-
 .cardSlide {
     height: 10rem;
 }
 
 .socialMedia {
-    /* background-color: rgba(101, 225, 145, 1); */
+    /* Hecho con la página CSS Gradient. */
+    background: #b5e3ac;
+    background: linear-gradient(90deg, rgba(181, 227, 172, 1) 0%, rgba(204, 240, 214, 1) 50%, rgba(181, 227, 172, 1) 100%);
 }
 
-.nextEvSlide {
-    /* background-color: rgba(16, 43, 200, 1); */
+.socialMediaList {
+    /* Hecho con la página CSS Gradient. */
+    background: #b5e3ac;
+    background: linear-gradient(90deg, rgba(181, 227, 172, 1) 0%, rgba(204, 240, 214, 1) 70%);
+    border: none;
 }
 
-.competitions {
-    /* background-color: rgba(156, 21, 230); */
+/* Border None */
+.bn {
+    border: none;
+}
+
+/* Border Slide */
+.bsl {
+    border: 2px solid #b5e3ac;
+}
+
+.compCard {
+    background-color: #b5e3ac;
+    border: 2px solid #1b2419;
 }
 
 .footer {
